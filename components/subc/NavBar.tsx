@@ -41,7 +41,7 @@ export default function NavBar() {
                     aria-label="Toggle menu"
                 >
                     {isOpen ? (
-                        <FaTimes className="text-2xl text-white" />
+                        <FaTimes className="text-2xl text-black" />
                     ) : (
                         <FaBars className="text-2xl text-white" />
                     )}
