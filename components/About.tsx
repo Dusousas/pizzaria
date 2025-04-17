@@ -12,7 +12,7 @@ export default function About() {
                         <h1 className='text-Dark text-7xl uppercase font-bold text-center lg:text-left'>Sobre SUAEMPRESA</h1>
                         <p className='text-Dark text-center lg:text-left lg:w-[40%]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi perspiciatis amet a quod aperiam doloribus praesentium excepturi nulla eaque vitae, laudantium iusto eveniet error at animi deserunt expedita quidem eligendi vel voluptatem quia quae nesciunt eum! Voluptas at aliquam quam reprehenderit eum quasi, cupiditate autem odio ratione aliquid labore iusto.</p>
                         <div className='mt-6 mx-auto lg:mx-0'>
-                            <a className='bg-Dark border border-Orange px-8 py-4 rounded-full uppercase font-semibold hover:bg-white hover:text-Orange' href="">Faça um pedido</a>
+                            <a className='bg-Dark border border-Orange text-white px-8 py-4 rounded-full uppercase font-semibold hover:bg-white hover:text-Orange' href="">Faça um pedido</a>
                         </div>
                     </article>
 

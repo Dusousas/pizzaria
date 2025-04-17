@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 export default function Main() {
     return (
         <>
-            <section className='relative bgMain h-[65vh] lg:h-[85vh]'>
+            <section className='relative bgMain h-[65vh] lg:h-[85vh] overflow-x-hidden'>
                 <div className='maxW flex flex-col h-full'>
                     <article className='h-full flex flex-col gap-20 justify-end items-center lg:gap-10'>
                         <div>
