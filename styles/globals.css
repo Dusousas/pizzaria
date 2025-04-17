@@ -10,7 +10,9 @@
   --color-foreground: var(--foreground);
   --font-Pacifico: "Pacifico", cursive;
   --color-Dark: #121619;
-  --color-Orange: #FD9D3E;
+  /* --color-Orange: #FD9D3E; */
+  --color-Orange: #FF9E32;
+
 }
 
 @media (prefers-color-scheme: dark) {
