@@ -5,7 +5,7 @@ import { FaFacebookSquare, FaInstagramSquare, FaWhatsappSquare } from 'react-ico
 export default function About() {
     return (
         <>
-            <section className='bg-Dark pt-20 pb-20 relative '>
+            <section id='contact' className='bg-Dark pt-20 pb-20 relative '>
                 <img className='absolute top-[-1px] w-full rotate-180' src="/lineupwhite.png" alt="" />
                 <div className='maxW flex flex-col justify-center gap-8 items-center lg:flex-row'>
 

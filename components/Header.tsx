@@ -8,7 +8,7 @@ export default function Header() {
                 <div className='maxW flex justify-between items-center'>
 
                     <div>
-                        <a className='font-Pacifico text-5xl' href=""><span className='text-Orange'>Sua</span> logo</a>
+                        <a className='font-Pacifico text-5xl text-white' href=""><span className='text-Orange'>Sua</span> logo</a>
                     </div>
                    <NavBar />
                 </div>

@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
     return (
         <>
-            <section className='bg-white pt-20 pb-10 relative '>
+            <section id='about' className='bg-white pt-20 pb-10 relative '>
                 <img className='absolute top-[-1px] w-full rotate-180' src="/lineup.png" alt="" />
                 <div className='maxW flex flex-col justify-center items-center lg:flex-row '>
 

@@ -28,6 +28,10 @@ body {
   font-family: "PT Sans Narrow", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .maxW{
   max-width: 1440px;
   margin: 0 auto;
@@ -36,7 +40,6 @@ body {
 
 .customH{
   position: relative;
-
 }
 
 h6 {

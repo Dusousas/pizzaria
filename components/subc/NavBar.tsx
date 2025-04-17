@@ -26,10 +26,10 @@ export default function NavBar() {
             {/* Menu desktop */}
             <nav className='hidden lg:block'>
                 <ul className='flex gap-6 uppercase tracking-wider text-lg font-semibold'>
-                    <li className='text-Orange'><a href="">Início</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li className='text-Orange'><a href="/">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
 
@@ -67,10 +67,10 @@ export default function NavBar() {
                             {/* Espaço para manter o layout, mas sem botão duplicado */}
                         </div>
                         <ul className='flex flex-col gap-6 uppercase tracking-wider text-lg font-semibold text-black'>
-                            <li className='text-Orange'><a href="" onClick={toggleMenu}>Início</a></li>
-                            <li><a href="" onClick={toggleMenu}>Sobre</a></li>
-                            <li><a href="" onClick={toggleMenu}>Menu</a></li>
-                            <li><a href="" onClick={toggleMenu}>Contato</a></li>
+                            <li className='text-Orange'><a href="/" onClick={toggleMenu}>Início</a></li>
+                            <li><a href="#about" onClick={toggleMenu}>Sobre</a></li>
+                            <li><a href="#menu" onClick={toggleMenu}>Menu</a></li>
+                            <li><a href="#contact" onClick={toggleMenu}>Contato</a></li>
                         </ul>
                     </div>
                 </div>

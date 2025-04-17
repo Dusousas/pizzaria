@@ -39,7 +39,7 @@ export default function Speciality() {
 
     return (
         <>
-            <section className='bg-Dark py-20 relative'>
+            <section id='menu' className='bg-Dark py-20 relative'>
                 <img className='absolute top-[-1px] w-full rotate-180' src="/lineupwhite.png" alt="" />
                 <div className='maxW'>
                     <article className='w-full h-full flex gap-y-4 flex-col items-center justify-center mt-20'>
